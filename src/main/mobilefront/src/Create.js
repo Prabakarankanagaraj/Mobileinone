@@ -39,10 +39,10 @@ export const Create=()=>{
     }
     return(
         <>
-         <div className="container mt-3" style={{backgroundColor:"lightgray"}}>
+         <div className="container mt-3">
          <h1 className="text-dark text-center">Add New a Stock</h1>
          <div className="row justify-content-center mt-3">
-            <div className="col-lg-4 col-md-10 col-sm-12  p-4" style={{backgroundColor:"ButtonHighlight",borderRadius:"30px",boxShadow:"5px 7px 7px 6px white"}}>
+            <div className="col-lg-4 col-md-10 col-sm-12  p-4" style={{backgroundColor:"white",borderRadius:"30px",boxShadow:"5px 7px 7px 6px white"}}>
                 <div className="row">
                     <label>Brand</label>
                     <input type="text" name="brand" onChange={getter} value={create.brand} className="form-control" placeholder="Enter your Brand Name"></input>

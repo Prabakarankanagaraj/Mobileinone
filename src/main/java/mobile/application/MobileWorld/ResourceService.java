@@ -20,7 +20,7 @@ public class ResourceService implements UserDetailsService{
 	public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
 		// TODO Auto-generated method stub
 		Resource res=repo.findByUsername(username); 
-		if(res==null) {
+ 		if(res==null) {
 			throw new UsernameNotFoundException("username invalid");
 		}
 				

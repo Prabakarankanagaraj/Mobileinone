@@ -76,7 +76,7 @@ public class MobileExecutive {
 	public Mobile callingUp(@RequestBody Mobile Up) {
 		return service.NewOne(Up);
 		
-	}
+}
 	
 	@DeleteMapping("/del")
 	public String callingMakeDelete(@RequestBody Mobile te) {

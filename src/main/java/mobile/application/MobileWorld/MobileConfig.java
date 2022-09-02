@@ -27,7 +27,7 @@ public class MobileConfig {
 		
 		@Bean
 		public WebSecurityCustomizer share() {
-			return (web)->web.ignoring().antMatchers("/signup");
+			return (web)->web.ignoring().antMatchers("/api/signup");
 			
 		}
 		
